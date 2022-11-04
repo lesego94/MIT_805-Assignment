@@ -1,4 +1,5 @@
 # MIT_805-Assignment
+The processed results are obatined in the results folder.
 
 The hive SQL statements are contained in the SQL statements text file.
 
