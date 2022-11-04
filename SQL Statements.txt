@@ -1,0 +1,40 @@
+1 #Determine Most purchased products
+2 SELECT product_id
+3 COUNT(product_id) as productCount
+4 FROM january_2020
+5 WHERE event_type ='purchase'
+6 GROUP BY product_id
+
+
+#Determine Most Engagments
+2 SELECT product_id
+3 COUNT(product_id) as productCount
+4 FROM january_2020
+5 WHERE event_type !='purchase'
+6 GROUP BY product_id
+
+/*Determine top 10 Gross revenue for incomplete purchases*/
+2 SELECT price,
+3 SUM(price) as productSum
+4 FROM january_2020
+5 WHERE event_type !='purchase'
+6 GROUP BY product_id
+
+/*Determine top 10 Gross revenue for each product*/
+2 SELECT price,
+3 SUM(price) as productSum
+4 FROM january_2020
+5 WHERE event_type ='purchase'
+6 GROUP BY product_id
+
+/*Determine top 10 performing brands*/
+2 SELECT brand,
+3 SUM(price) as brandSum
+4 FROM january_2020
+5 WHERE event_type ='purchase'
+6 GROUP BY brand;
+
+
+
+
+
