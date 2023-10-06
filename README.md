@@ -1,8 +1,9 @@
 # MIT_805-Assignment
-The processed results are placed in the results folder.
 
-The hive SQL statements are contained in the SQL statements text file.
+Contained are the notebooks which were used to obtain all the results. The notebooks were run from the google cloud platform and upon completion were placed here
+all at once.
 
-The video expalining the hadoop HIVE procedure can be viewed here:
+The video explaining the PySpark and Hadoop procedures can be viewed here:
 
-https://drive.google.com/file/d/10C5s0Zh7m9fpJMFx1biHjPYPHx1iMs_D/view?usp=sharing
+[https://drive.google.com/drive/folders/1Bhexya-UOf0xwscLjhdzmphalsRnPjdX?usp=sharing](Video Demonstration)
+[Video Demonstration](https://drive.google.com/drive/folders/1Bhexya-UOf0xwscLjhdzmphalsRnPjdX?usp=sharing)
